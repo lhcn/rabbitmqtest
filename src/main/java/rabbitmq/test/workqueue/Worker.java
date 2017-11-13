@@ -1,3 +1,5 @@
+package rabbitmq.test.workqueue;
+
 import com.rabbitmq.client.*;
 
 import java.io.IOException;

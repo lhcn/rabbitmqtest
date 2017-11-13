@@ -1,3 +1,5 @@
+package rabbitmq.test.rounting;
+
 import com.rabbitmq.client.*;
 
 import java.io.IOException;
@@ -16,7 +18,7 @@ public class ReceiveLogsDirect {
     String queueName = channel.queueDeclare().getQueue();
 
     if (argv.length < 1){
-      System.err.println("Usage: ReceiveLogsDirect [info] [warning] [error]");
+      System.err.println("Usage: rabbitmq.test.rounting.ReceiveLogsDirect [info] [warning] [error]");
       System.exit(1);
     }
 

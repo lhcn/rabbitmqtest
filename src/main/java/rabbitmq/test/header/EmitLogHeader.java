@@ -1,3 +1,5 @@
+package rabbitmq.test.header;
+
 import com.rabbitmq.client.*;
 
 import java.util.HashMap;
@@ -9,7 +11,7 @@ public class EmitLogHeader {
 
   public static void main(String[] argv) throws Exception {
     if (argv.length < 1) {
-      System.err.println("Usage: EmitLogHeader message queueName [headers]...");
+      System.err.println("Usage: rabbitmq.test.header.EmitLogHeader message queueName [headers]...");
       System.exit(1);
     }
 

@@ -1,3 +1,5 @@
+package rabbitmq.test.pubsub;
+
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Connection;
