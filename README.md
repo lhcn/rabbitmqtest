@@ -57,3 +57,4 @@ use a semicolon instead of a colon to separate items in the classpath.
     $ java -cp $CP EmitLog
 
 
+[spring-amqp](https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/spring-amqp)
